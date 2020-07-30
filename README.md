@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+1. Installation
 
-In the project directory, you can run:
+******************************************************************************
 
-### `npm start`
+1.1 Open your terminal and navigate to the Reac-Jack folder (on MacOS, simply open the terminal and type 'cd', and then drag and drop the folder into your terminal to get the file path), and press Enter.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1.2 Install React (the 'node_modules' folder) by typing 'npm install --save react' in your terminal, and press Enter.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1.3 Install React-Bootstrap by typing 'npm install react-bootstrap bootstrap' in your terminal, and press Enter.
 
-### `npm test`
+1.4 Install Font Awesome 5 by typing 'npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons' in your terminal, and press Enter.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*** Note: Steps 1.2 - 1.4 might take a while to install. Wait until everything is done until you move onto the next step. ***
 
-### `npm run build`
+1.5 To run Reac-Jack, simply type 'npm start' in your terminal, and press Enter. Your default browser will open and load the game.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+******************************************************************************
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+2. Rules of Reac-Jack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+******************************************************************************
 
-### `npm run eject`
+2.1 The goal of blackjack is to beat the dealer's hand without going over 21.
+2.2 Face cards are worth 10, and Aces are worth 11. This is unlike classic blackjack, where Aces are worth either 11 or 1. Watch out for this.
+2.3 Each player starts with two cards, and one of the dealer's cards is hidden until the end.
+2.4 To 'Hit' is to ask for another card. To 'Stand' is to hold your total and end your turn.
+2.5 If you go over 21, you go bust (lose), and the dealer wins regardless of the dealer's hand.
+2.6 If you are dealt 21 from the start (Ace & 10), you got a blackjack. If you hit 21 at all before it is the dealer's turn, you still get a blackajack (unlike in classic blackjack).
+2.7 A blackjack means you win what you bet, plus 50%.
+2.8 For example, if you bet $10, and get a blackjack, you will get a total of $25 (the $10 you bet, plus another $10 for winning, plus 50% of $10 (which is $5) for a total of $25).
+2.9. The dealer will hit until his/her cards total 17 or higher.
+2.10 There is no 'doubling down' in Reac-Jack (unlike classic blackjack).
+2.11 There is no splitting cards in Reac-Jack (unlike classic blackjack).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*** Note: Press the 'FAQ' button in the Reac-Jack Game for this list, and more helpful information. ***
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+******************************************************************************
